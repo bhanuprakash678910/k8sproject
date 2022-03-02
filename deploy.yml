@@ -15,6 +15,6 @@ spec:
         namespace: default
      spec:
         containers:
-          - image: bhanuprakashece410/nginxdemo:2
+          - image: bhanuprakashece410/nginxdemo:$TAG
             imagePullPolicy: Always
             name: mynginx2
